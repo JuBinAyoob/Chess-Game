@@ -1,0 +1,76 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico|Open+Sans:300);
+
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+
+    background-color: cadetblue;
+}
+
+.header{
+    display: block;
+    background-color: #333333;
+    color: azure;
+    text-align: center;
+    font-family: 'Pacifico';
+}
+
+.div-timer{
+    display: block;
+    text-align: right;
+}
+
+.spn-moves-title{
+    font-weight: 600;
+    color: white;
+    padding-right:5px;
+    
+}
+
+.spn-moves{
+    padding-right:10px; 
+}
+
+.spn-turn{
+    padding-right:10px; 
+}
+
+.spn-timer-title{
+    font-weight: 600;
+    color: white;
+    padding-right:5px; 
+}
+
+.spn-timer{
+    margin-right: 10%;
+}
+
+.game-window{
+    width: 40%;
+    height: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.chess-piece{
+    width: 100%;
+} 
+
+.chess-column{
+    margin: 5px;
+}
+
+.show-moves{
+    border: 3px solid red;
+}
+
+.white{
+    background-color: white;
+}
+
+.black{
+    background-color: brown;
+}
